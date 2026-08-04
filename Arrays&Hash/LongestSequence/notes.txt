@@ -1,0 +1,10 @@
+Longest Sequence
+
+This problem you would want to utilize something else that is not a list
+in a list the problem is that when we are searching for a value whether it exists inside of
+that list we will have to go through a time complexity of O(n) which is slow already so when
+we are traversing through the list we would already faced something along the line of O(n^2) which
+the requirements said that we should do it O(n) therefore we must find another way instead of using a list
+since we don't really care about the duplicate but the time complexity we could utilize a set instead of a list
+or tuple since the lookup for a set will result with a time compelxity of O(1) which is constant like hash table
+therefore we must convert the lits into a set first
