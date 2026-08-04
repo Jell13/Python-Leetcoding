@@ -4,7 +4,7 @@ def twoSum(numbers, target):
     while l < r:
         result = numbers[l] + numbers[r]
         if result == target:
-            return [l, r]
+            return [l + 1, r + 1]
         elif result < target:
             l += 1
         elif result > target:

@@ -1,0 +1,6 @@
+3 Sum
+
+this problem will be about using the concept of two pointers but instead of just using two we will 
+be in need of a third one, since we need to find 3 numbers that will result in a one, this will 
+work when the numbers in the array is already sorted if its not therefore we won't be able to find
+the solution we would need to sort it, if we are told to be using the two pointers method.
