@@ -1,0 +1,9 @@
+Two Sum Pointers
+
+This problem we will utilize the concept of two pointers starting from the end and the right
+and yes we are doing the same thing we done before which was two sum, before we would utilize
+hash tables and then array methods but this time we will be using two pointers, the reason why 
+we could do this is because for two sum the array was not in order meanwhile for this one the
+list will be in order which allows us to check from high to low, and check if the result is a 
+to high therefore we just go back from the right since the right will have the highest value.
+The same goes to the right if the result is too low therefore we move forward from the left.
