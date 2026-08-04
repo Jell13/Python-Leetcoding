@@ -1,0 +1,11 @@
+Valid Palindrome
+
+we will be utilizing the concept of two pointers which just means we have
+two pointers at the most left (start of the list or whatever we are on) and 
+the right which is the end of the list or whatever we are on. 
+
+we would then check if whether the left or the right is an alpha numeric if its
+not then we would move forward (moving the left) or move backwards (moving the right)
+and then we compare if one of them are not the same when they are lowered then they are not
+a palindrome and just returns False immediately and then if it is then we continue as long as 
+left will always be smaller then right 
