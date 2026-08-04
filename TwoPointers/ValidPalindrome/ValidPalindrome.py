@@ -1,0 +1,2 @@
+def validPalindrome(s):
+    pass

@@ -8,3 +8,9 @@ the requirements said that we should do it O(n) therefore we must find another w
 since we don't really care about the duplicate but the time complexity we could utilize a set instead of a list
 or tuple since the lookup for a set will result with a time compelxity of O(1) which is constant like hash table
 therefore we must convert the lits into a set first
+
+when we created the set we need to remember to skip any number that might not be the start of the Sequence
+what I am saying is that some numbers don't need to be check since that number - 1 exists so therefore we don't 
+even need to check it and just skip those and then just check the next number in the set. Since we are using the
+set instead of using list therefore we know when we check or do a lookup on that set it will result in a time complexity
+of O(1) which is constant so its a lot faster than when we use a list and a tuple.
