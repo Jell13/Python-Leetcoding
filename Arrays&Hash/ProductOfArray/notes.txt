@@ -1,0 +1,11 @@
+Product of Array except Self
+
+now in this method we are only utilizing arrays but in this concept we would need to understand what prefix and postfix
+concept is, we will be using that to find the product of everyting except itself, now postfix is basically multiplying
+the previous value with the current but leaving and making sure the very first one is only 1. meanwhile for postfix we 
+will be utilizing the previous list that was the result of the postfix and do it traverse it but this time from the back to
+the front.
+
+we are going to be traversing twice but that does not mean that we will have a O(n^2) we would still have O(n) and n being
+the number of items inside of the nums list basically to imagine how the prefix and postfix is basically, making sure the
+current index of the item of the list we do not product it with its self.

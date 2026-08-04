@@ -1,0 +1,5 @@
+Valid Sudoku
+
+we utilize the usage of a set inside of a nested for loop when we traverse through the entire sudoku board, so we would
+need to go iterate through the rows as well as columns and find out a way to also configure how do we check the 3x3 box in
+order to make sure that it is also a valid sudoku, so the best way to do that is by checking /3 from the rows and columns

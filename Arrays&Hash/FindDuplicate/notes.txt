@@ -1,0 +1,8 @@
+Find duplicate 
+
+this problem introduces what to do with arrays such as how to traverse through them using "for"
+it also introduces the main functionality of using the hash table or in terms of Python programming language we will
+be using an implementation of the hash table in Python which is the dictionary, what it is, is a collection of key and
+value pairs. because of that when we are looking for a certain value that is associated with a key therefore the time
+complexity is O(1) which means it is constant, unlesss there is a possibility of a hash collision which will result in
+a time complexity of O(n) same time complexity in traversing an array. 

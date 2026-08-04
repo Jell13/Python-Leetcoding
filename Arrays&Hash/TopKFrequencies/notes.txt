@@ -1,0 +1,10 @@
+Top K Frequent Elements
+
+in this problem we would need to think something outisde of the box which is using that is called a bucket sort but
+we would still utilize the functionalities of the list as well as the dictionaries, the dictionaries is again used for 
+a counter so the key would be used to save the number in from the list and then the value will be the amount of time the
+specific number shows up, now for the most optimal approach for time complexity wise when we start we would want to initialize
+the bucket sort using list, we would like to create the list in the range of the length of the list of numbers + 1, why
+the plus 1 because when we create a list the index goes from 0 to whatever the length is minus 1 therefore if there is 6 items
+in the number list therefore we only have the bucket from ranging 0 to 5 which doesn't make sense since the number could possibly
+show up 6 times, therefore we would want to add one more index into the list of buckets.

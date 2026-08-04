@@ -1,0 +1,14 @@
+Valid Anagram
+
+this problem will mostly be about the usage of hash maps or dictionary as we would like to know how many letters exist
+in the first and second word, we can do a constraint check immediately at the start which is making sure that their length
+are the same if they are not therefore one word is missing a word or two from the other which means it is not an Anagram
+since an anagram means the word has the same letter but just in different order or position.
+
+the usage for the dictionary here is to set the key as the letter and the value as the actual counter for how many times the
+character actually showed up. We don't actually just use one dictionary however we need 2 since there are 2 words
+but we can outsmart it with just traversing it once using the length of one of them in a "for" loop since they have to
+have the same length if they don't, then we know its not an anagram.
+
+Our time complexity in this one should be around O(n) since we are only running through each character for the strings
+once.

@@ -1,0 +1,15 @@
+Group Anagrams
+
+this problem utilizes both array as well as dictionary but this problem we would need to think of a method in order to
+create a key for the dictionary that will be able to be used for the dictionary to keep track of what letters does each
+words have, now we are unable to just utilize the checker to be another dictionary or a list since we are unable to use
+dictionaries as a key in another dictionary it needs something that is immutable, now in python data structures one of them
+is the type that we could store a collection and is immutable as well as allows that collection to have duplicate which is
+a tuple, now in the english language the number of letters or alphabets are 26 so we could technically create a list at first
+to have 26 x 0s and we will traverse the words from the list and then we will traverse each character of each word and use
+the ord() function from Python and minus it with ord('a') since its value is 65 and anything after 'a' will be higher value so
+we utlize 'a' as the base and we minus it with that value, and then we turn that into a tuple after we finish iterating through
+the letters and use that tuple as the key for the dictionary, this will be less optimal since its going to be a nested loop
+with our time complexity a O(n * m) why its not n^2 bc n is the amount of items in the list while m is the amount of letters in each
+word. Another thing about this problem is that we would want to use the defaultdict() from Python's collection module
+because we have a problem that if we use the normal {} declaration it would not allow for us to append it into the list.

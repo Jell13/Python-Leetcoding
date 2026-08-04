@@ -1,0 +1,15 @@
+Two Sum
+
+this problem will be using the functionality of the hash table or dictionary in Python but this time, with a more
+added logic part into solving this specific problem.
+
+we would want to traverse through the entire list to check and see the numbers now there is two way we could do this.
+the first method is slower which means we traverse the list and for each number we traverse throughout the list again to
+see if there is another number that will make the current number we are on to get to the target. 
+
+The other method is more optimal for the time complexity as in this method we do not have a nested loop to check each number
+in this one we actually traverse through the list only once inside of the list and we have a key value pair to be used as
+the counter, this time what we store is the number as the key and the value as the index their position of that digit.
+
+Now why the added logic is actually to check for every digit that we are traversing we check if the target - the digit will
+result is inside of our dictionary if it is then we get the value of that key as well as return the current index all in a single list

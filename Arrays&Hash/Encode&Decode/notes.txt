@@ -1,0 +1,7 @@
+Encode & Decode
+
+this problem is to test your abilities as well as functionality testing of an array methods such as appending it 
+as well as joining them to convert the list into a string, but after that we are needed to write a function which is 
+to decode the text into a list, now what we do in this is basically string manipulation to turn the string into a list again
+and return the list. we would want to find a logical way to actually encode the strings from the list during the encode
+process. Now the best method is somehow storing the value of how many characters the word is. 
