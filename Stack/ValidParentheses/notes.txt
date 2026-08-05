@@ -1,0 +1,10 @@
+Valid Parentheses
+
+this problem we will be using a data structure called a stack which works in a FIFO structure
+First In First Out, which we will use a list to implement that stack what that does for us is that
+when the parentheses is added in we will be adding in only the openning ones e.g. (, [, {. Then we 
+will be using a dictionary in order for us to keep track of what goes with what, therefore we create 
+the key value pair of the closing parentheses with the openning ones, so when we are traversing the 
+string we check if the dictionary contains the key with that closing parentheses, now the thing we 
+would need to be careful is actually the ending if there is no closing parentheses then we should 
+return if the stack's length is empty or not.
