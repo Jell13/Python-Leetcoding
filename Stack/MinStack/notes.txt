@@ -1,0 +1,11 @@
+Min Stack
+
+the problem will be about creating a class that represents a class, and this class will also have another
+stack and it will be called the minStack that will have a different functionality instead of the main stack
+the main stack will have the usual push, pop, and top functionality but the minStack's job is to keep in track
+of what is the current stack's lowest value, we do that by doing the checking inside of the push method of the 
+class. The push will add in the value into the normal stack, but then we will be checking if the minStack's 
+length is 0 therefore we just add the value into the minStack, but if its not we do a min() Python operator 
+check in order to see if the new value or the current value in the minStack is the lowest one. The reason why
+we use another stack for this case is because we would like to keep in memory which one is actually the lowest
+value added into the minStack.
