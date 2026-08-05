@@ -1,0 +1,8 @@
+Container with the most Water
+
+in this problem we will be utilizing the concept of two pointers to determine which
+will contain most of the water, we will be using the two pointers to determine the distance
+of the length and the height, the length is the difference between the right pointer and the left
+pointer, meanwhile the height is whatever the minimum between the height at the left pointer position
+the height at the right pointer position. Once we find the area we will compare it using Python's max()
+operator to find the recent area or the previous is the higher value. and we return that value.
