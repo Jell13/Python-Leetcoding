@@ -1,0 +1,9 @@
+Evaluate Reverse Polish Notation
+
+This problem involes the usage of stack data structure, since we would like to utilize its FIFO capabilities in order to find out 
+which value is the second one and which value is the first one, now we need to be careful when we pop it will return the value of 
+the last value of that stack instead of the first, so we would need to be careful with which one we will be grabbing in order to 
+evaluate whether it will be the first or the second value will go first. Now when we have decided that we could decide to store 
+the operands inside of a dictionary or inside of a set bc when we do a lookup in those data structures our time complexity will be
+constant for the lookup. For actually doing the operands we will be using an branch if and elif statements in order to determine 
+what to do with the values.
