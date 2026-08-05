@@ -1,0 +1,7 @@
+Trapping Rain Water
+
+in this problem we utilize the two pointers concept and this time we always choose the highest value
+height whether its on the left or the right once we have the max height on the left and right we would
+want to actually see who is the highest the current position height or the leftMax itself, we would need
+to always update the leftMax or the rightMax based on whichever is actually smaller, if the leftMax is 
+smaller then we move it and change the leftMax while also adding in the totalWater.
