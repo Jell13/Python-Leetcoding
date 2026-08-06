@@ -1,0 +1,5 @@
+Daily Temperature
+
+To solve this question we will be using the concept of stack which we will be utilizing a FIFO structure in order to 
+solve this question, now the question wants us to tell the day when the next higher temperature will show up basically 
+after the current one
