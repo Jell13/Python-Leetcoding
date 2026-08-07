@@ -1,0 +1,7 @@
+Car Fleet
+
+this problem will require more logical sense before we actually utilize the stack for its FIFO properties. Now how do
+we do that is by organizing the position as well as the speed in order to find the time they will reach their target
+we can easily find the time by doing (target - position) / speed, and then we would want to do it based on the closes 
+to the target in order to find the easily fleet first if there is a possible fleet meeting at the target together, and
+then we count the rest since it will be very good for a FIFO structure
