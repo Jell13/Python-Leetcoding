@@ -1,0 +1,5 @@
+Search a 2D Matrix
+
+This question utilizes the concept of binary search again but because this is a 2d matrix which means we would have to
+use the binary search on the outside array first since we could technically use its first value to see if the target is
+in that array, and then if it is then we would do a binary search inside of that array.
