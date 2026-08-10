@@ -1,0 +1,11 @@
+Koko eating bananas
+
+this problem will be utilizing binary search, but this specific one we wouldn't need to sort anything about the list of
+piles that we receive, this time we need to imagine a list of numbers of possible k on our own, and calculate the hours
+that the k would perform for eating the bananas of that pile. the way we would want to calculate it technically we can use
+python's math.ceil() and just do amount of banana per hour which is just pile / k but since we would want to do just pure
+therefore we just iterate through the piles and each pile we will be calculating with finding the total hours, by doing 
+(pile + (k - 1)) // k and from the results we will get our hours total now the question is the minimum so if its lower 
+or equal to the hours they provided for us therefore we could say that is our result, but we can continue on finding the 
+most minimum now to do that we would want the starting point to be 1 and then the max ending point will be the max() number 
+on that list of piles itself.
