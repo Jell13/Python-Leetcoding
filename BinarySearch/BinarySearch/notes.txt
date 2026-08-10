@@ -1,0 +1,12 @@
+Binary Search
+
+In order to do a binary search approach type of algorithm you would want to learn what a two pointer method is since
+we will be using the initial concept of two pointer with having two points which is the start and the end of whatever
+slice of the array we are in. when we start the points would always be at the start and the end of the array but then
+later on it will move. To be able to use binary search methods we would want to remember that binary search requires 
+the array or the collection to be sorted in order to use binary search method. 
+
+Solving a binary search problem can usually be done in a recursive manner, even though if we were to use iterative it 
+won't effect the time complexity as it will still be able to solve the problem in a O(logn) time complexity but we 
+would need to remember that the n is the size of the array. If we were to solve it in recursive manner it would still 
+be the same time complexity.
