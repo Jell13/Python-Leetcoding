@@ -1,0 +1,12 @@
+Largest Rectangle in the Histogram
+
+This question we would need to utilize the principle FIFO of a stack which means we would want. With added logic in order
+to actually find the largest rectangle whether it will be the width of one but the height that can win over the others or 
+multiple combined boxes but the heigh is not that high which means we would need to be next to each other as well as the 
+minimum is the one we are looking for therefore we would need the stack to be in a form of a descending order, the stack's 
+purpose is to tell if when will be a non descending order of array since if it is ascending then the latest height to be added
+will not be higher than the upcoming one and it will mark it as not when it ends. When traversing it we are going through it once
+which means we would want to make sure that at the end if the stack is filled and nothing got popped which means we have a 
+somewhat ascending order of the bars then we would traverse it and calculate the total of the area how do we know the range
+or the length? we have the length of the heights and then we also store the index of the position of the height. and check 
+who has the max of the area?
