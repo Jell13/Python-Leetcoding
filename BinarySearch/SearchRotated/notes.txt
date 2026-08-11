@@ -1,0 +1,7 @@
+Search in Rotated Sorted Array
+
+We would need to utilize the use of binary search but this time we will use the kind of the same concept with the 
+rotated sorted array where we try to find the minimum but this time we are looking for a specific target. The difference
+is that we would want to check it with which sides is the sorted one, if the sorted one is on the left we need to check
+if the target is between the value of the left and the mid, and for the sorted one is on the right we need to check if 
+the target is between the value of the mid and the high.
