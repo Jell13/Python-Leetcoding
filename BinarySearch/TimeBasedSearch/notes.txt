@@ -1,0 +1,13 @@
+Time Based Key Value Store
+
+this question prompts us to actually use key and value way of storing a specific key but what the value will be is a list
+and that list will be able to keep track the timestamp and since timestamp can only go forward as well as we just append
+which gets added into the back of the list we are basically going to be able to use binary search since they will already 
+be in order and sorted. with that information to our knowledge we then use the timestamp that is given to us when we do 
+a search and we can use it to search for which one is the actual timestamp we are looking for, but with a twist if the 
+timestamp in the current list is lower than the expected timestamp we just keep track of what the possible answer could be
+if the current list position's timestamp is more than the timestamp requested than the answer lies before.
+
+The reason why we needed to keep track of the result is bc if the current position's timestamp is lower than the timestamp requested
+and we try going higher and nothing is higher then we atleast stored the result in first to make sure that we grabbed the one
+that exists and the requested timestamp does not exist yet
