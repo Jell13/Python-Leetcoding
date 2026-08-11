@@ -1,0 +1,8 @@
+Find Minimum in a Rotated Sorted Array
+
+in the rotated sorted array problem, the array is still sorted in some side of the array. With that information we don't 
+really need to fully sort the list in order to find the answer. We would be able to check which part actually the target
+rests. we compare the mid with the high and check if the mid is bigger than the high then the target would be on the right
+side and the low should be mid + 1, now there is a different with how a normal binary search would go for mid < high we 
+can't just make high as mid - 1 because the mid is a possible candidate as it is smaller than the high and our goal is looking
+for the minimum.
