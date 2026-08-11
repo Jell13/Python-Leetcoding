@@ -1,0 +1,14 @@
+Median of 2 Sorted Array
+
+in this problem the way we could solve this problem is that we should be using, binary search on the array that has
+the shortest length. The shortest length will be the one to be used to divide, depending on the amount of the total 
+length of both, if the total length of both array is 9 therefore the left can have one more than the right based on
+the rule of median. We would want to understand that if its even then it means that the median will be the number 
+that splits the full length of the array into equal amount or left have exactly one more than the right.
+
+After we decide with which one is the shortest in length we would want to binary search in order to find the split 
+after we decide where to split the shortest one, the amount we will be splitting from the second array is easily told
+since the first one can be split based on its length meaning if its length is 3 then we know that the second array
+we only need 2 more values from it. Now after we split it and checking if its valid is by comparing the most right 
+and the most left of all of those splitted arrays so we have 4 things to needed to be checked. In order for us to
+take a decision about whether the split is valid.
