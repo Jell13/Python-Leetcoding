@@ -1,0 +1,5 @@
+Longest Repeating Character Replacement
+
+This question will utilize the sliding window and it will be conceptually the same with the longest Substring
+the only difference is that we are actually looking for duplicates with the ability of replacing the
+character based on the amount of k.
