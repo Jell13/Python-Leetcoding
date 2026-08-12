@@ -1,0 +1,5 @@
+Best Time to Buy and Sell Stock
+
+This is the first problem in the introduction of seeing a sliding window problem, and in this problem
+we are sent to actually find out the minimum price as well as the max profit each day and if we do not 
+find any value that has a good max profit we would then need to return 0 as we could not find a good profit
