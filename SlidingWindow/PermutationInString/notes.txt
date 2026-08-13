@@ -1,0 +1,4 @@
+Permutation in String
+
+This problem requires us to understand how we can utilize a sliding window to check based on the shorter string in order
+to find the letters inside of the smaller one to tell whether its a permutation or not.

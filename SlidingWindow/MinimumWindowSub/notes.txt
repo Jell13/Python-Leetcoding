@@ -1,0 +1,7 @@
+Minimum Window Substring
+
+In this problem we will be doing almost the same process as we did with permutation in string problem, we will go through
+the first string to count all their letters as well as the length of the entire string in order to compare it later on
+instead of comparing the dictionary this time we would need to initialize a new counter variable where its sole purpose 
+is to find out whether the amount of characters in the need is satisfied with the current window, so we are not looking at
+the size of the window we are looking at the count of letters in the window.
