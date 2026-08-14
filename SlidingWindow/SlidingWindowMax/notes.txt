@@ -1,0 +1,6 @@
+Sliding Window Maximum
+
+we are introducing a new concept to be using instead of only the sliding window principle, we are given a fixed size
+of the window size from this which is k, now because we know now that our size is always k and also that we are trying
+to find the maximum in each of the iteration with k size, we can check by using a python data structure called a deque
+we can add and pop from the left (start) and right (end) double ended queue is basically what it is. 
